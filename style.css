@@ -1,0 +1,54 @@
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+
+}
+.calculator
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 250px;
+
+}
+.btn
+{
+    height: 46px;
+    width: 131px;
+    color: white;
+    background: #808080;
+}
+.text-area
+{
+    width: 540px;
+    height: 100px;
+    background-color: white;
+    border-width: thin;
+    border-style: solid;
+    border-color: #808080;
+    border-radius: 10px;
+}
+#equal
+{
+    font: bolder;
+    background: #0000FF;
+}
+#c
+{
+    background: #FF0000 ;
+    font: bolder;
+}
+#dis
+{
+    text-align: end;
+    font-size: 50px;
+
+}
